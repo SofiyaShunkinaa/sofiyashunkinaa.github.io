@@ -1,0 +1,831 @@
+.slider-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card--img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7%;
+    box-shadow: 0 50px 70px rgba(0, 0, 0, 0.15);
+}
+body{
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.b-head, .b-footer{
+    background: #FFCC33;
+    padding: 15px 0;
+    font-weight: 600;
+}
+.b-section{
+    margin-bottom: 250px;
+}
+.container{
+    max-width: 1680px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;   
+}
+.menu__item{
+    padding: 5px 15px;
+}
+.head, .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+}
+.menu__item--black{
+    background: #000;
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.menu__item--white{
+    background: #fff;
+    border-radius: 30px;
+}
+.main1{
+    background-image: url(../images/main1.png);
+    height: 770px;
+    width: 1345px;
+    float: right;
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 96px;
+}
+.subsection-text__subtitle{
+    color: #6B6B6B;
+    max-width: 650px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.subsection-text{
+    padding: 80px 0 150px 0;
+}
+.section-logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.section-preview{
+    background-image: url(../images/1440-1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 330px;
+    background-position-y: 0;
+}
+.textbox__subtitle, .card-subtext{
+    font-size: 26px;
+    color: #6B6B6B;
+    font-weight: 600;
+    text-align: center;
+}
+.textbox__title h1{
+    font-size: 55px;
+}
+.textbox{
+    display: flex; 
+    flex-direction: column;
+    align-items:center;
+}
+.section-advantages__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-subtext{
+    font-size: 34px;
+}
+button{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background: #000;
+    color: white;
+    border-radius: 30px;
+}
+.section-autopark__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.grid-item{
+    justify-self: center;
+    padding-top: 20px;
+}
+.item1{
+    justify-self: self-start;
+}
+.item3{
+    justify-self: self-end;
+}
+.grid-item__text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    color: #6B6B6B;
+}
+a{
+    text-decoration: none;
+}
+.grid-item__text:hover{
+    color: #ababab;
+}
+.menu__item--black:hover{
+     background: rgb(255, 255, 255);
+     color: #000;
+}
+.menu__item--white:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.footer span{
+    color: #6B6B6B;
+}
+.footer span:hover{
+    color: #ffffff;
+}
+.punkt:hover{
+    color: #fff;
+}
+.grid-item__img img{
+    filter: drop-shadow(15px 12px 22px rgba(0, 0, 0, 0.2))
+}
+.section-mobileapp__textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    float: right;
+    margin: 0px 100px 0 0;
+}
+.section-mobileapp{
+    height: 993px;
+    background-image: url(../images/mobileappmocup.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -200px;
+    background-position-y: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.section-news__icon{
+    height: 243px;
+    width: 243px;
+}
+.section-news__form{
+    width: 700px;
+    height: 130px;
+    background: #FFCC33;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-news{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-news img{
+    width: 100%;
+    height: 100%;
+}
+.footer__logo{
+    width: 63px;
+    height: 43px;
+    align-self: center;
+}
+.b-footer{
+    background: #000;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+}
+.footer span{
+    padding: 0 15px;
+}
+button{
+    margin-top: 100px;
+    width: 235px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+}
+.card-1, .card-2, .card-3{
+    box-shadow: 0px 100px 170px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.download{
+    margin: 100px 0 0 0 ;
+}
+.katalog{
+    width: 260px;
+}
+button:hover{
+    background: #999999;
+}
+.card-img, .item-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.item-img img{
+    margin: 0 auto;
+}
+.card-1, .card-3{
+    height: 280px;
+}
+.news{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px;
+}
+input{
+    width: 600px;
+    height: 40px;
+    background: rgba(107, 107, 107, 0.5);
+    border-radius: 22px;
+}
+.grid-item__img img{
+    width: 100%;
+    height: 100%;
+}
+.head__burger{
+    width: 40px;
+    height: 17px;
+    display: none;
+}
+.head__burger img{
+    width: 100%;
+    height: 100%;
+}
+.textbox__subtitle-top{
+    font-weight:100; 
+    font-size: 22px;
+}
+.textbox__subtitle-top p{
+    margin: 0;
+}
+.section-mobileapp .textbox__subtitle{
+    max-width: 500px;
+}
+.textbox__subtitle p{
+    margin: 0; 
+    text-align: center;
+}
+.section-mobileapp p{
+    text-align: left;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.error-logo{
+    width: 300px;
+    height: 75px;
+}
+ .error-logo img{
+    width: 100%;
+    height: 100%;
+ }
+ .flexcontainer h1{
+    color: #FFCC33;
+    font-size: 320px;
+ }
+ .flexcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 80px;
+ }
+
+/* --------------------------------------------------------------------------- MAX-WIDTH 1770 ------------- */
+@media screen and (max-width:1770px){            
+    .container{
+        max-width: 1540px;
+    }
+    }
+/* --------------------------------------------------------------------- MAX-WIDTH 1600 ------------------- */
+@media screen and (max-width:1600px){
+.container{
+    max-width: 1440px;
+}
+.section-preview {
+    background-position-x: 160px;
+}
+}
+/* --------------------------------------------------------------------------- MAX-WIDTH 1440 ------------- */
+@media screen and (max-width:1770px){            
+    .container{
+        max-width: 1150px;
+    }
+    .section-preview {
+        background-position-x: 90px;
+    }
+    .section-mobileapp__textbox{
+        margin: -130px 30px 0 0;
+    }
+}
+/* --------------------------------------------------------------------------- MAX-WIDTH 1200 ------------- */
+@media screen and (max-width:1200px){            
+    .container{
+        max-width: 1000px;
+    }
+    .b-section {
+        margin-bottom: 150px;
+    }
+    h1{
+        font-size: 72px;
+    }
+    .subsection-text__subtitle p{
+        font-size: 28px;
+        margin: 0;
+    }
+    .section-preview {
+        background-position-x: -230px;
+    }
+    .subsection-text__title h1{
+        margin: 0;
+    }
+    .subsection-text{
+        padding-bottom: 200px;
+    }
+    .textbox__title h1 {
+        font-size: 46px;
+    }
+    .textbox__subtitle{
+        font-size: 22px;
+    }
+    .card-subtext {
+        font-size: 28px;
+    }
+    button {
+        padding-top: 2px;
+    }
+    .section-mobileapp {
+        background-position-x: -210px;
+        background-size: contain;
+        height: 630px;
+    }
+    .section-mobileapp__textbox {
+        margin: 0;
+    }
+    .grid-item__img{
+        height: 10em;
+    }
+}
+/* --------------------------------------------------------------------------- MAX-WIDTH 1024 ------------- */
+@media screen and (max-width:1024px){            
+    .container{
+        max-width: 900px;
+    }
+    .grid-item__img{
+        height: 8em;
+    }
+    .textbox__title h1 {
+        font-size: 38px;
+    }
+    
+    .card-1, .card-3{
+        width: 290px;
+        height: 233px;
+    }
+    .section-advantages__cards .card-2{
+        width: 268px;
+        height: 345px;
+    }
+    .section-autopark{
+        margin: 0px;
+    }
+    .section-autopark__grid{
+    grid-gap:30px;
+    margin: 0 40px;
+    }
+    button {
+        padding-top: 2px;
+    }
+    
+    .section-news__icon{
+        height: 180px;
+        width: 180px;
+    }
+    .section-news__form{
+        width: 590px;
+        height: 110px;
+    }
+    input{
+        width: 530px;
+        height: 35px;
+    }
+}
+/* --------------------------------------------------------------------------- MAX-WIDTH 960 ------------- */
+@media screen and (max-width:960px){
+.container{
+    max-width: 700px;
+}
+.section-logos div{
+    width: 55px;
+    height: 55px;
+}
+.section-logos img{
+    width: 100%;
+    object-fit: contain;
+}
+h1{
+    font-size: 62px;
+}
+.subsection-text__subtitle p{
+    font-size: 20px;
+}
+.section-preview {
+    background-position-x: -290px;
+}
+.textbox__title h1 {
+    font-size: 32px;
+}
+.card-1, .card-3{
+    width: 211px;
+    height: 170px;
+}
+.section-advantages__cards .card-2{
+    width: 195px;
+    height: 249px;
+}
+.card-item .card-subtext{
+    font-size: 22px;
+}
+button{
+    margin-top: 70px;
+    font-size: 20px;
+    width: 218px;
+}
+.section-autopark__grid{
+    margin: 0px;
+}
+.textbox__subtitle{
+    font-size: 20px;
+}
+.section-mobileapp{
+    padding-left: 150px;
+    height: 595px;
+    background-position-x: -300px;
+}
+input{
+    width: 465px;
+}
+.section-autopark__grid{
+    grid-gap:20px;
+}
+.footer__logo{
+    display: none;
+}
+.grid-item__text{
+     font-size: 28px;
+}
+.punkt{
+    padding: 5px 8px;
+}
+}
+/* --------------------------------------------------------------------- MAX-WIDTH 925 ------------------- */
+@media screen and (max-width:925px) {
+.menu__item{
+    font-size: 14px;
+}
+}
+/* --------------------------------------------------------------------- MAX-WIDTH 890 ------------------- */
+@media screen and (max-width:890px) {
+    .section-mobileapp{
+        background-position-x: -380px;
+        padding-left: 200px;
+    }
+}
+/* --------------------------------------------------------------------- MAX-WIDTH 860 ------------------- */
+@media screen and (max-width:860px) {
+    .punkt{
+        padding: 5px;
+    }
+    .menu__item{
+        padding: 5px;
+    }
+    .menu__item--black{
+        margin-right: 10px;
+    }
+}
+/* --------------------------------------------------------------------- MAX-WIDTH 800 ------------------- */
+@media screen and (max-width:800px) {
+    .menu__item{
+        font-size: 12px;
+    }
+    input{
+        width: 360px;
+        height: 25px;
+    }
+    .section-news__icon{
+        height: 135px;
+        width: 135px;
+    }
+    .section-news__form {
+        width: 470px;
+        height: 85px;
+    }
+    .news{
+    font-size: 24px;
+    }
+    .footer span{
+        display: none;
+    }
+    .footer__logo{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    .footer__logo img{
+        width: 100%;
+    }
+    .b-footer{
+        padding-bottom: 0;
+    }
+}
+/* --------------------------------------------------------------------- MAX-WIDTH 760 ------------------- */
+@media screen and (max-width:760px) {
+.section-mobileapp{
+    background-size: cover;
+}
+.head__menu{
+    display: none;
+}
+.head__burger{
+    display: block;
+}
+.textbox__subtitle{
+    font-size: 16px;
+}
+.section-preview {
+    background-position-x: -213px;
+    background-size: 1400px 459px;
+}
+.subsection-text__subtitle p{
+    font-size: 18px;
+    margin: 0px;
+}
+.subsection-text{
+padding-bottom: 160px;
+}
+.container{
+    max-width: 450px;
+}
+h1{
+    font-size: 40px;
+}
+.subsection-text__subtitle p{
+    font-size: 18px;
+}
+.textbox__title h1{
+    font-size: 22px;
+}
+.section-logos div{
+    width: 35px;
+    height: 35px;
+}
+.card-item .card-subtext{
+    font-size:18px;
+}
+.section-advantages__cards{
+    flex-direction: column;
+}
+.card-item{
+    padding: 20px 0;
+}
+button{
+    margin-top: 50px;
+    font-size: 16px;
+    width: 173px;
+    padding-top: 3px;
+}
+.katalog{
+    width: 200px;
+}
+.section-autopark__grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.grid-item__text{
+    font-size: 22px;
+}
+.textbox__subtitle-top{
+    font-size: 18px;
+}
+.section-news{
+    flex-direction: column;
+}
+.section-news__icon{
+    padding-bottom: 20px;
+}
+.error-logo{
+    width: 150px;
+    height: 35px;
+}
+.flexcontainer h1{
+    font-size: 150px;
+}
+.flexcontainer h2{
+    font-size: 20px;
+    text-align: center;
+}
+ /* .flexcontainer{
+    padding-top: 50px;
+ } */
+}
+/* --------------------------------------------------------------------- MAX-WIDTH 600 ------------------- */
+@media screen and (max-width:600px) {
+.section-mobileapp{
+    background-position-x: -359px;
+    padding-left: 246px;
+}
+}
+/* --------------------------------------------------------------------- MAX-WIDTH 480 ------------------- */
+@media screen and (max-width:480px) {
+    .logo img{
+        width: 140px;
+        height: 30px;
+    }
+    .b-head{
+        padding: 10px 0;
+    }
+    .container, .section-news__form{
+        max-width: 280px;
+    }
+    .subsection-text{
+        padding-top: 35px;
+        padding-bottom: 110px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .section-preview{
+        background-image: url(../images/mobileframe.png);
+        background-size: auto;
+        background-position-x: -64px;
+        background-position-y: -44px;
+    }
+    .item-2, .item-3, .item-4, .item-5, .item-8{
+        display: none;
+    }
+    .section-logos div{
+        width: 50px;
+        height: 50px;
+    }
+    .item-6{
+        order: 2;
+    }
+    .item-9{
+        order: 4;
+    }
+    .title-adv{
+        flex-direction: column;
+        text-align: center;
+    }
+    .title-adv h1{
+        margin: 0;
+        font-size: 26px;
+    }
+    .section-autopark__grid{
+        grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    }
+    .grid-item{
+        justify-self: center;
+    }
+    .section-mobileapp{
+        background-size: 632px 440px;
+        background-position-x: -145px;
+        padding-left: 21px;
+        background-position-y: 44px;
+        padding-right: 0px;
+        padding-top: 260px;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+    }
+    .section-mobileapp__textbox{
+        align-items: center;
+    }
+    .section-mobileapp p {
+        text-align: center;
+    }
+    .download{
+        margin-top: 70px;
+    }
+    .news{
+        font-size: 18px;
+    }
+    input{
+        width: 250px;
+        height: 18px;
+    }
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        font-size: 16px;
+     }
+     .section-news__icon{
+        width: 120px;
+        height: 120px;
+     }
+}
+/* --------------------------------------------------------------------- MAX-WIDTH 380 ------------------- */
+@media screen and (max-width:380px) {
+.textbox__subtitle-top{
+    font-size: 14px;
+}
+.download{
+    margin-top: 50px;
+}
+button{
+    font-size: 14px;
+    width: 155px;
+    height: 30px;
+    padding-top: 0;
+}
+.katalog{
+    width: 180px;
+}
+.container{
+    max-width: 270px;
+}
+.section-preview{
+    background-position-x: -126px;
+}
+.section-mobileapp{
+    background-size: 650px 464px;
+    background-position-x: -295px;
+    background-position-y: 74px;
+}
+.section-mobileapp h1{
+    margin-bottom: 25px;
+}
+.textbox__subtitle{
+    font-size: 14px;
+}
+}
+/* --------------------------------------------------------------------- MIN-WIDTH 960 ------------------- */
+@media screen and (min-width:960px) {
+    .footer__logo{
+        display: none;
+    }
+/* --------------------------------------------------------------------- MIN-WIDTH 1600 ------------------- */
+@media screen and (min-width:1600px) {
+    .section-preview {
+        background-position-x: 440px;
+    }
+    .section-mobileapp__textbox {
+        margin: 0px 170px 0 0;
+    }
+    .section-mobileapp {
+        background-position-x: -80px;
+    }
+}
+.title-adv{
+    display: flex; justify-content:center;
+}
+.yellow{
+    color: #FFCC33;
+}
+.card-2{
+    width: 305px; 
+    height: 392px;
+}
+.zabota{
+    margin-bottom: 0;
+}
+.autopark{
+    margin-bottom: 0;
+}
+.section-autopark__textbox .textbox__subtitle{
+    max-width: 1260px;
+}
+}
