@@ -521,8 +521,11 @@ input{
 /* --------------------------------------------------------------------- MAX-WIDTH 890 ------------------- */
 @media screen and (max-width:890px) {
     .section-mobileapp{
-        background-position-x: -380px;
         padding-left: 200px;
+        background-position-x: -370px;
+    }
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        font-size: 20px;
     }
 }
 /* --------------------------------------------------------------------- MAX-WIDTH 860 ------------------- */
@@ -683,7 +686,7 @@ button{
     }
     .subsection-text{
         padding-top: 35px;
-        padding-bottom: 110px;
+        padding-bottom: 135px;
     }
     h1{
         font-size: 36px;
@@ -725,7 +728,7 @@ button{
     .section-mobileapp{
         background-size: 632px 440px;
         background-position-x: -145px;
-        padding-left: 21px;
+        padding-left: 0px;
         background-position-y: 44px;
         padding-right: 0px;
         padding-top: 260px;
